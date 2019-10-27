@@ -20,7 +20,7 @@ import java.util.List;
  * of CustomerProfileActor.
  */
 public class GreeterActorRouter extends AbstractActor {
-    private final static String ACTOR_NAME = "CustomerProfileRouter";
+    private final static String ACTOR_NAME = "GreeterActorRouter";
     private Router router;
 
     private LoggingAdapter log = Logging.getLogger(getContext().getSystem(), this);
